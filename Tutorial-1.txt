@@ -1,0 +1,17 @@
+cara gunakan yt-dlp (github) untuk download video youtube dengan format apapun yang tersedia menggunakan command-line
+
+1. untuk cek format apa saja yang ada di video ataupun audio tersebut:
+yt-dlp --list-formats url
+
+2. untuk download videonya saja (perhatikan nomer id)
+yt-dlp -f nomer_id url
+
+contoh:
+yt-dlp -f 391 https://www.youtube.com/watch?v=Mw1MWfilz_k&pp=ygUMdmlkZW8gNjAgZnBz
+
+3. untuk download video+audio
+yt-dlp -f nomer_id+_nomer_audio url
+
+contoh:
+yt-dlp -f 391+140 https://www.youtube.com/watch?v=Mw1MWfilz_k&pp=ygUMdmlkZW8gNjAgZnBz
+
