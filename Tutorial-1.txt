@@ -17,7 +17,7 @@ yt-dlp -f nomer_id url
 contoh:
 yt-dlp -f 391 https://www.youtube.com/watch?v=Mw1MWfilz_k&pp=ygUMdmlkZW8gNjAgZnBz
 
-3. untuk download video+audio
+3. untuk download video+audio (untuk digabung formatnya biasanya menggunakan FFmpeg [di merge])
 yt-dlp -f nomer_id+_nomer_audio url
 
 contoh:
